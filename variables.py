@@ -61,3 +61,34 @@ print("My name is", x)
 print(x, y)
 print(y + z)
 print(y * 10)
+
+print("Global Variables")
+print("Variables created outside of a function which can be used in or out of any function whithin the code.")
+
+x = "RJ"
+
+def firstFunc():
+    print("Hello " + x, "How are you?")
+
+firstFunc()
+
+print("What happens if I create a variable inside a function with the same name as the global variable? Let's see.")
+
+x = "RJ"
+def myFunc():
+    x = "number 5"
+    print("I'm " + x)
+
+myFunc()
+print(x)
+
+print("The variable called inside the function will use the varible made inside the function. The one outside it will use the global variable.")
+print("To create a global variable inside a function, use the global keyword.")
+
+def myNewFunc():
+    global r
+    r = "this is the global variable now"
+   
+myNewFunc()
+print(r)
+
