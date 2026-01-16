@@ -17,7 +17,7 @@ h = "100"
 print(type(h))
 print(type(y))
 
-print("VARIABLE NAMES")
+print("Variable Names")
 print("Acceptable variable names", end=" myDog, MyCar, my_money, test_Case_1, MyMomsDocs.")
 myDog = "Fido"
 MyCar = "Toyota"
@@ -30,3 +30,24 @@ print(MyCar)
 print(my_money)
 print(test_Case_1)
 print(MyMomsDocs)
+
+print("Multiple Variables")
+print("In python I can assign values to mutliple variables in one line.")
+
+a, b, c = "green", "1 million", "Freedom"
+print(a)
+print(b)
+print(c)
+
+print("I can also assign the same value to mutliple variables")
+x = y = z = "Rich"
+print(x)
+print(y)
+print(z)
+
+print("If i have a list, Python allows me to axtract variables the values into variables.", end=" Called unpacking. \n")
+fruits = ["apple", "banana", "cherry"]
+f1, f2, f3 = fruits
+print(f1)
+print(f2)   
+print(f3)
