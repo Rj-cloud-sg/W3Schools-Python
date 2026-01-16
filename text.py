@@ -1,0 +1,1 @@
+print("This text shows how to write code on the same line.", end=" Otherwise this sentence would've been on a separate line")
