@@ -1,0 +1,1 @@
+print("I'm learning python!"); print("I'm at kvcc"); print("I also play football")
