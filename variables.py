@@ -51,3 +51,13 @@ f1, f2, f3 = fruits
 print(f1)
 print(f2)   
 print(f3)
+
+print("Output Variables")
+x = "RJ"
+y = 5
+z = 10
+
+print("My name is", x)
+print(x, y)
+print(y + z)
+print(y * 10)
