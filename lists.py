@@ -8,3 +8,5 @@ print(len(myList + foods))
 newList = [5, "Money", True, 10.5]
 print(newList)
 print(type(newList))
+
+print("--------------------------------------------------------------------------------------")
